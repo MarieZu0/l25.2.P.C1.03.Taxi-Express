@@ -25,5 +25,5 @@ empresa.procesarCliente(cliente2);
 empresa.procesarCliente(cliente3);
 empresa.procesarCliente(cliente4);
 alert(`Cantidad de clientes femeninas mayores de edad: ${empresa.cantidadFemeninasMayores()}
-Menor edad atendida: ${empresa.menorEdadAtendida()}
-Promedio de edad de los clientes: ${empresa.promedioEdadClientes()}`);
+La menor edad atendida fue de ${empresa.menorEdadAtendida()} años
+El promedio de edad de los clientes es de ${empresa.promedioEdadClientes()} años`);
